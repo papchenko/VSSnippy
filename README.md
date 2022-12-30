@@ -8,24 +8,10 @@ Collection Snippets extension
 
 ![gif](https://github.com/papchenko/VSSnippy/blob/main/resources/vssnippy.gif?raw=true)
 
-## VERSIONS
-
-> **1.0:**
-
-```diff
-+ resources.
-```
-
-> > **1.1:**
+## version 1.0
 
 ```diff
 + JSSnippy CSSnippy.
-```
-
-> > > **1.2:**
-
-```diff
-+ README.MD.
 ```
 
 ### what is the advantage?
