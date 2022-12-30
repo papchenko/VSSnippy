@@ -1,0 +1,102 @@
+{
+    // fon size
+    "font size": {
+		"scope": "css,scss,sass",
+		"prefix": "fs",
+		"body": [
+			"font-size: $1px;",
+			"$2"
+		],
+		"description": "font size"
+	},
+
+    // margin
+    "margin": {
+		"scope": "css,scss,sass",
+		"prefix": "mm",
+		"body": [
+			"margin: 0px 0px 0px 0px;"
+		],
+		"description": "margin"
+	},
+
+	// padding
+	"padding": {
+		"scope": "css,scss,sass",
+		"prefix": "pp",
+		"body": [
+			"padding: 0px 0px 0px 0px;"
+		],
+		"description": "padding"
+	},
+
+	// @media-min-width:px
+	"@media-min-width:px": {
+		"scope": "css,scss,sass",
+		"prefix": "min",
+		"body": [
+			"@media (min-width: $1px) {",
+			"$2",
+			"}",
+		],
+		"description": "@media-min-width:px"
+	},
+
+	// @media-max-width:px
+	"@media-max-width:px": {
+		"scope": "css,scss,sass",
+		"prefix": "max",
+		"body": [
+			"@media (max-width: $1px) {",
+			"$2",
+			"}",
+		],
+		"description": "@media-max-width:px"
+	},
+
+    // @media-min-width:767px
+    "@media-min-width:767px": {
+		"scope": "css,scss,sass",
+		"prefix": "min767",
+		"body": [
+			"@media (min-width: 767.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-min-width:767px"
+	},
+
+	//@media-max-width:767px
+	"@media-max-width:767px": {
+		"scope": "css,scss,sass",
+		"prefix": "max767",
+		"body": [
+			"@media (max-width: 767.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-max-width:767px"
+	},
+
+    // transform: translate
+    " transform-translate": {
+		"scope": "css,scss,sass",
+		"prefix": "tt",
+		"body": [
+			"transform: translate($1, $2);",
+			"$3"
+		],
+		"description": "transform-translate"
+	},
+
+    // transition
+    "transition": {
+		"scope": "css, scss, sass",
+		"prefix": "tr",
+		"body": [
+			"transition: all 0.3s ease 0s;",
+			"$1"
+		],
+		"description": "transition"
+	}
+}

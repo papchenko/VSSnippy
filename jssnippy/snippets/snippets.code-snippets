@@ -1,0 +1,79 @@
+{
+	//use stict
+	"use strict": {
+		"scope": "javascript,typescript",
+		"prefix": "us",
+		"body": [
+			"'use strict'",
+			"$1",
+			"$2"
+		],
+		"description": "use strict"
+	},
+
+    // function
+    "function": {
+		"scope": "javascript,typescript",
+		"prefix": "fun",
+		"body": [
+			"function $1() {",
+			"$2",
+			"}",
+		],
+		"description": "function"
+	},
+
+	//addEventListener-click-function
+	"addEventListener-click-function": {
+		"scope": "javascript,typescript",
+		"prefix": "acf",
+		"body": [
+			"addEventListener('click', function() {",
+			"$1",
+			"});"
+		],
+		"description": "addEventListener-click-function"
+	},
+
+		// let
+		"let": {
+			"scope": "javascript,typescript",
+			"prefix": "ll",
+			"body": [
+				"let"
+			],
+			"description": "let"
+		},
+
+    // let-document.querySelector
+    "let-document.querySelector": {
+		"scope": "javascript,typescript",
+		"prefix": "ldq",
+		"body": [
+			"let $1 = document.querySelector('.$2');",
+			"$3"
+		],
+		"description": "let-document.querySelector"
+	},
+
+		// const
+		"const": {
+			"scope": "javascript,typescript",
+			"prefix": "cc",
+			"body": [
+				"const"
+			],
+			"description": "const"
+		},
+
+	// const document.querySelector
+	"const-document.querySelector": {
+		"scope": "javascript,typescript",
+		"prefix": "cdq",
+		"body": [
+			"const $1 = document.querySelector('.$2');",
+			"$3"
+		],
+		"description": "const-document.querySelector"
+	},
+}

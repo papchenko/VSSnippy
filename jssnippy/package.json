@@ -1,0 +1,30 @@
+{
+  "name": "jssnippy",
+  "displayName": "JSSnippy",
+  "description": "Collection Snippets JavaScript-TypeScript (VSCode)",
+  "version": "1.0.0",
+  "publisher": "papchenko",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papchenko/vsnippy"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
