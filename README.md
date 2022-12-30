@@ -1,4 +1,4 @@
-# VSSnippy ![img]()
+# VSSnippy ![img](https://github.com/papchenko/VSSnippy/blob/main/resources/icon.png?raw=true)
 
 ```
 Collection Snippets extension
