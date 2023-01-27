@@ -4,7 +4,7 @@
 Collection Snippets extension
 ```
 
-## HOW TO INSTALL
+## HOW TO
 
 ![gif](https://github.com/papchenko/VSSnippy/blob/main/resources/vssnippy.gif?raw=true)
 
