@@ -23,5 +23,4 @@ This extension allows you to write code faster, reducing a lot of time!
 ## For more information
 
 - [Visit my portfolio](http://papchenko.com/)
-- [Visit my dev-workspace](https://papchenko.dev/)
 
