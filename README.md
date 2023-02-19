@@ -4,7 +4,11 @@
 Collection Snippets extension
 ```
 
+<<<<<<< HEAD
 ## HOW TO INSTALL
+=======
+## installation
+>>>>>>> 26553c136862e899186ae7bf52724cc9ccb1e0a8
 
 ![gif](https://github.com/papchenko/VSSnippy/blob/main/resources/vssnippy.gif?raw=true)
 
@@ -23,4 +27,4 @@ This extension allows you to write code faster, reducing a lot of time!
 ## For more information
 
 - [Visit my portfolio](http://papchenko.com/)
-- [Visit my dev-workspace](https://papchenko.dev/)
+
