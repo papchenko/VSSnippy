@@ -1,6 +1,6 @@
 {
-    // fon size
-    "font size": {
+	// fon size
+	"font size": {
 		"scope": "css,scss,sass",
 		"prefix": "fs",
 		"body": [
@@ -9,9 +9,8 @@
 		],
 		"description": "font size"
 	},
-
-    // margin
-    "margin": {
+	// margin
+	"margin": {
 		"scope": "css,scss,sass",
 		"prefix": "mm",
 		"body": [
@@ -19,7 +18,6 @@
 		],
 		"description": "margin"
 	},
-
 	// padding
 	"padding": {
 		"scope": "css,scss,sass",
@@ -29,7 +27,6 @@
 		],
 		"description": "padding"
 	},
-
 	// @media-min-width:px
 	"@media-min-width:px": {
 		"scope": "css,scss,sass",
@@ -41,7 +38,6 @@
 		],
 		"description": "@media-min-width:px"
 	},
-
 	// @media-max-width:px
 	"@media-max-width:px": {
 		"scope": "css,scss,sass",
@@ -53,33 +49,98 @@
 		],
 		"description": "@media-max-width:px"
 	},
-
-    // @media-min-width:767px
-    "@media-min-width:767px": {
+	// @media-min-width:479px
+	"@media-min-width:479.98px": {
 		"scope": "css,scss,sass",
-		"prefix": "min767",
+		"prefix": "min4",
+		"body": [
+			"@media (min-width: 479.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-min-width:479.98px"
+	},
+	// @media-max-width:479px
+	"@media-max-width:479.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "max4",
+		"body": [
+			"@media (max-width: 479.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-max-width:479.98px"
+	},
+	// @media-min-width:767px
+	"@media-min-width:767.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "min7",
 		"body": [
 			"@media (min-width: 767.98px) {",
 			"$1",
 			"}",
 		],
-		"description": "@media-min-width:767px"
+		"description": "@media-min-width:767.98px"
 	},
-
 	//@media-max-width:767px
-	"@media-max-width:767px": {
+	"@media-max-width:767.98px": {
 		"scope": "css,scss,sass",
-		"prefix": "max767",
+		"prefix": "max7",
 		"body": [
 			"@media (max-width: 767.98px) {",
 			"$1",
 			"}",
 		],
-		"description": "@media-max-width:767px"
+		"description": "@media-max-width:767.98px"
+	},
+	// @media-min-width:991px
+	"@media-min-width:991.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "min9",
+		"body": [
+			"@media (min-width: 991.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-min-width:991.98px"
+	},
+	//@media-max-width:991px
+	"@media-max-width:991.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "max9",
+		"body": [
+			"@media (max-width: 991.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-max-width:991.98px"
 	},
 
-    // transform: translate
-    " transform-translate": {
+	// @media-min-width:1280px
+	"@media-min-width:1280.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "min12",
+		"body": [
+			"@media (min-width: 1280.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-min-width:1280.98px"
+	},
+	//@media-max-width:1280px
+	"@media-max-width:1280.98px": {
+		"scope": "css,scss,sass",
+		"prefix": "max12",
+		"body": [
+			"@media (max-width: 1280.98px) {",
+			"$1",
+			"}",
+		],
+		"description": "@media-max-width:1280.98px"
+	},
+
+	// transform: translate
+	" transform-translate": {
 		"scope": "css,scss,sass",
 		"prefix": "tt",
 		"body": [
@@ -88,9 +149,8 @@
 		],
 		"description": "transform-translate"
 	},
-
-    // transition
-    "transition": {
+	// transition
+	"transition": {
 		"scope": "css, scss, sass",
 		"prefix": "tr",
 		"body": [
@@ -98,5 +158,59 @@
 			"$1"
 		],
 		"description": "transition"
-	}
+	},
+	//w100%
+	"width: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "w1",
+		"body": [
+			"width: 100%;"
+		],
+		"description": "width: 100%;"
+	},
+	//h100%
+	"height: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "h1",
+		"body": [
+			"height: 100%;"
+		],
+		"description": "height: 100%"
+	},
+	//mih100%
+	"min-height: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "mih1",
+		"body": [
+			"min-height: 100%;"
+		],
+		"description": "min-height: 100%"
+	},
+	//miw100%
+	"min-width: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "miw1",
+		"body": [
+			"min-width: 100%;"
+		],
+		"description": "min-width: 100%"
+	},
+	//mah100%
+	"max-height: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "mah1",
+		"body": [
+			"max-height: 100%;"
+		],
+		"description": "max-height: 100%"
+	},
+	//maw100%
+	"max-width: 100%": {
+		"scope": "css,scss,sass",
+		"prefix": "maw1",
+		"body": [
+			"max-width: 100%;"
+		],
+		"description": "max-width: 100%"
+	},
 }

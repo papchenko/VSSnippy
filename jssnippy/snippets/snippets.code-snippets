@@ -11,17 +11,17 @@
 		"description": "use strict"
 	},
 
-    // function
-    "function": {
-		"scope": "javascript,typescript",
-		"prefix": "fun",
-		"body": [
-			"function $1() {",
-			"$2",
-			"}",
-		],
-		"description": "function"
-	},
+	    // function
+		"function": {
+			"scope": "javascript,typescript",
+			"prefix": "fun",
+			"body": [
+				"function $1() {",
+				"",
+				"}",
+			],
+			"description": "function"
+		},
 
 	//addEventListener-click-function
 	"addEventListener-click-function": {
@@ -75,5 +75,15 @@
 			"$3"
 		],
 		"description": "const-document.querySelector"
+	},
+	"multi-comments": {
+		"scope": "javascript,typescript",
+		"prefix": "mc",
+		"body": [
+			"/*",
+			"    $1",
+			"*/"
+		],
+		"description": "multi-comments"
 	},
 }

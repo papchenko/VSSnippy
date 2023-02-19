@@ -4,7 +4,7 @@
 Collection Snippets extension
 ```
 
-## HOW TO USE
+## HOW TO INSTALL
 
 ![gif](https://github.com/papchenko/VSSnippy/blob/main/resources/vssnippy.gif?raw=true)
 
@@ -14,7 +14,7 @@ Collection Snippets extension
 + JSSnippy CSSnippy.
 ```
 
-### what is the advantage?
+### What is the advantage?
 
 This extension allows you to write code faster, reducing a lot of time!
 
