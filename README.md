@@ -10,8 +10,9 @@ Collection Snippets extension
 
 ## version 1.0
 
-```diff
-+ JSSnippy CSSnippy.
+```
++ JSSnippy
++ CSSnippy.
 ```
 
 ### What is the advantage?
