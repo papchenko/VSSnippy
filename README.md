@@ -10,8 +10,10 @@ Collection Snippets extension
 
 #### version 1.0
 
+```
 + JSSnippy
 + CSSnippy.
+```
 
 ##### What is the advantage?
 
