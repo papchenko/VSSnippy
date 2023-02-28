@@ -3,6 +3,11 @@
 ```
 Collection Snippets extension
 ```
+###### What is the advantage?
+
+```
+This extension allows you to write code faster, reducing a lot of time!
+```
 
 ##### HOW TO INSTALL
 
@@ -13,12 +18,6 @@ Collection Snippets extension
 ```
 + JSSnippy
 + CSSnippy.
-```
-
-##### What is the advantage?
-
-```
-This extension allows you to write code faster, reducing a lot of time!
 ```
 
 ## 
