@@ -10,14 +10,14 @@ Collection Snippets extension
 
 #### version 1.0
 
-```
 + JSSnippy
 + CSSnippy.
-```
 
 ##### What is the advantage?
 
+```
 This extension allows you to write code faster, reducing a lot of time!
+```
 
 ## 
 **[my portfolio](http://papchenko.com/)** 
