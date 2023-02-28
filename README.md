@@ -21,5 +21,5 @@ This extension allows you to write code faster, reducing a lot of time!
 ```
 
 ## 
-**[my portfolio](http://papchenko.com/)** 
+[![N|Solid](https://raw.githubusercontent.com/papchenko/papchenko.com/cc72f2d60dde917d6c359e05197398e7b845af8c/resources/img/short-logo.svg)](http://papchenko.com/)
 
