@@ -4,11 +4,11 @@
 Collection Snippets extension
 ```
 
-## HOW TO INSTALL
+### HOW TO INSTALL
 
 ![gif](https://github.com/papchenko/VSSnippy/blob/main/resources/vssnippy.gif?raw=true)
 
-## version 1.0
+### version 1.0
 
 ```
 + JSSnippy
